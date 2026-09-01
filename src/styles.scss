@@ -40,3 +40,15 @@ body::before {
 a { color: inherit; }
 button,input,textarea { font: inherit; }
 ::selection { background: rgba(124,58,237,.45); color: #fff; }
+
+body {
+  margin: 0;
+
+  font-family: 'Inter', Arial, sans-serif;
+
+  color: var(--text);
+
+  background: #07101f;
+
+  -webkit-font-smoothing: antialiased;
+}
